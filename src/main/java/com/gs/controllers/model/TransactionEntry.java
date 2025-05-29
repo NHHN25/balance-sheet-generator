@@ -17,6 +17,10 @@ public class TransactionEntry {
         this.description = description;
     }
 
+    public TransactionEntry() {
+
+    }
+
     public int getId() {
         return id;
     }
